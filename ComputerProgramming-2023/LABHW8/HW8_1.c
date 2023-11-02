@@ -39,6 +39,7 @@ int sumUpData(int* p, int size) // int p[]로 써도 된다
 		sum += *p;
 		p++;
 	}
+	return sum;
 }
 
 void printData(int* p, int size) // int p[]로 써도 된다
