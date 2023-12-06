@@ -9,7 +9,6 @@ int solution1(char* s)
 	int sum = 0;
 
 	strncpy(arr, s, 4);
-	
 	int num = atoi(arr);
 
 	sum = num % 100;
