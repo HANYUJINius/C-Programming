@@ -4,7 +4,6 @@ static int sum;
 
 int calFruit(int n)
 {
-	// 코드 작성
 	while (n > 0)
 	{
 		sum += n % 10;
@@ -13,7 +12,7 @@ int calFruit(int n)
 	return sum;
 }
 
-int main(void) //변경하지 말라
+int main(void)
 {
 	int n;
 	scanf("%d", &n);
