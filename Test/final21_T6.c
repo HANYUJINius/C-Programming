@@ -5,7 +5,7 @@ typedef struct student {
 	char name[20];
 	int midterm;
 	int final;
-	char grade; //변경
+	char grade; 
 } Student;
 
 typedef struct cClass {
